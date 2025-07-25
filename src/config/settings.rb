@@ -1,5 +1,5 @@
 CONFIG = {
-  log_file_path: 'src/log/access.log'
+  log_file_path: '../log/access.log'
 }
 
 
