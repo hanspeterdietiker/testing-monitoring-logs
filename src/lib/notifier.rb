@@ -25,4 +25,7 @@ module Notifier
   rescue StandartError => e
     puts "Error to send email : #{e.message}"
   end
+
+  def self.send_console_alert(message)
+    puts  "[CONSOLE ALERT] : #{message}"
 end
